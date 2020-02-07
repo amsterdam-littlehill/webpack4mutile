@@ -1,2 +1,0 @@
-(window.webpackJsonp=window.webpackJsonp||[]).push([[3],{"/P8n":function(n,e,p){"use strict";p.r(e);p("201c");var c=p.p+"images/11.png",a=p("dSPy");let o=new Image;Object(a.a)(),o.src=c,document.body.append(o)}},[["/P8n",1,2,0]]]);
-//# sourceMappingURL=index.bundle.2d03ad10bcf31cf41f27.js.map

@@ -1,1 +1,0 @@
-{"version":3,"sources":["webpack:///./src/print.js"],"names":["printMe","console","log"],"mappings":"2FAAe,SAASA,IACpBC,QAAQC,IAAI,SADhB","file":"static/common.bundle.2d03ad10bcf31cf41f27.js","sourcesContent":["export default function printMe() {\r\n    console.log('print')\r\n    //cosnole.log('I get called from print.js!');\r\n}"],"sourceRoot":""}
