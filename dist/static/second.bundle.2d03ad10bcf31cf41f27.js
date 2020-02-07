@@ -1,0 +1,2 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[4],{Evvu:function(o,n,t){"use strict";t.r(n),function(o){var n=t("dSPy");const e=t("adk9");document.body.append(o.join(["Another","module","loaded!"]," ")),Object(n.a)(),e.test()}.call(this,t("LvDl"))},adk9:function(o,n){let t={test:function(){console.log("test something")},parse:function(){console.log("parse something")}};o.exports=t}},[["Evvu",1,2,0]]]);
+//# sourceMappingURL=second.bundle.2d03ad10bcf31cf41f27.js.map
