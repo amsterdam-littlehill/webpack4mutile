@@ -25,6 +25,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="745cd5fe-3820-4dd4-8ed8-98e900e33e8e" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.editorconfig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -42,6 +44,7 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="MERGE" />
   </component>
   <component name="IgnoredFileRootStore">
     <option name="generatedRoots">
@@ -182,7 +185,7 @@
       <workItem from="1581043557148" duration="16000" />
       <workItem from="1581043575937" duration="1982000" />
       <workItem from="1581045984719" duration="5929000" />
-      <workItem from="1581062218576" duration="11712000" />
+      <workItem from="1581062218576" duration="13077000" />
     </task>
     <task id="LOCAL-00001" summary="初始化">
       <created>1581078330573</created>
@@ -205,7 +208,14 @@
       <option name="project" value="LOCAL" />
       <updated>1581079219982</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="去除无用代码">
+      <created>1581079683120</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1581079683120</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -255,7 +265,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="初始化" />
     <MESSAGE value="修改项目名" />
-    <option name="LAST_COMMIT_MESSAGE" value="修改项目名" />
+    <MESSAGE value="去除无用代码" />
+    <option name="LAST_COMMIT_MESSAGE" value="去除无用代码" />
   </component>
   <component name="WindowStateProjectService">
     <state x="361" y="76" key="#Updates" timestamp="1574884415375">
@@ -266,10 +277,10 @@
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="223" y="72" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.834@0.0.1536.834" timestamp="1581061635965" />
-    <state x="370" y="19" key="CommitChangelistDialog2" timestamp="1581079659628">
+    <state x="370" y="19" key="CommitChangelistDialog2" timestamp="1581079681590">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state x="370" y="19" key="CommitChangelistDialog2/0.0.1536.834@0.0.1536.834" timestamp="1581079659628" />
+    <state x="370" y="19" key="CommitChangelistDialog2/0.0.1536.834@0.0.1536.834" timestamp="1581079681590" />
     <state width="838" height="466" key="DebuggerActiveHint" timestamp="1581061912536">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
@@ -278,19 +289,19 @@
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="93" y="93" width="1350" height="648" key="DiffContextDialog/0.0.1536.834@0.0.1536.834" timestamp="1575373538823" />
-    <state x="390" y="296" key="FileChooserDialogImpl" timestamp="1581078172803">
+    <state x="390" y="296" key="FileChooserDialogImpl" timestamp="1581080571078">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state x="390" y="296" key="FileChooserDialogImpl/0.0.1536.834@0.0.1536.834" timestamp="1581078172803" />
+    <state x="390" y="296" key="FileChooserDialogImpl/0.0.1536.834@0.0.1536.834" timestamp="1581080571078" />
     <state x="390" y="326" key="FileChooserDialogImpl/0.30.1536.834@0.30.1536.834" timestamp="1579238564631" />
     <state x="583" y="324" width="394" height="185" key="Github.CreateGistDialog" timestamp="1581077826515">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="583" y="324" width="394" height="185" key="Github.CreateGistDialog/0.0.1536.834@0.0.1536.834" timestamp="1581077826515" />
-    <state x="620" y="308" key="Github.ShareDialog" timestamp="1581079494297">
+    <state x="620" y="308" key="Github.ShareDialog" timestamp="1581080646090">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state x="620" y="308" key="Github.ShareDialog/0.0.1536.834@0.0.1536.834" timestamp="1581079494297" />
+    <state x="620" y="308" key="Github.ShareDialog/0.0.1536.834@0.0.1536.834" timestamp="1581080646090" />
     <state width="1091" height="216" key="GridCell.Tab.0.bottom" timestamp="1581079413166">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
@@ -375,6 +386,10 @@
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="93" y="93" width="1350" height="648" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.0.1536.834@0.0.1536.834" timestamp="1575372861483" />
+    <state x="561" y="330" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1581080520184">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="561" y="330" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1536.834@0.0.1536.834" timestamp="1581080520184" />
     <state x="447" y="155" width="662" height="566" key="find.popup" timestamp="1581067729929">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
