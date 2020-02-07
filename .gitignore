@@ -1,10 +1,10 @@
 .DS_Store
-/node_modules/
-/.idea/
-/.vscode/
+node_modules/
+.idea/
+.vscode/
 .project
 .settings
-/dist/
+dist/
 npm-debug.log*
 package-lock.json
 workspace.xml
