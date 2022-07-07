@@ -51,7 +51,7 @@
     "filemanager-webpack-plugin": "^2.0.5",
     "jquery": "^3.4.1",
     "lodash": "^4.17.15",
-    "moment": "^2.24.0",
+    "moment": "^2.29.4",
     "xml2js": "^0.4.22"
   }
 }
